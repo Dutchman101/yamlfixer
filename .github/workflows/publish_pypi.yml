@@ -31,6 +31,6 @@ jobs:
         run: python -m build
 
       - name: Publish distribution to PyPI
-        uses: pypa/gh-action-pypi-publish@master
+        uses: pypa/gh-action-pypi-publish@e9ccbe5a211ba3e8363f472cae362b56b104e796
         with:
           password: ${{ secrets.YAMLFIXER_PYPI_TOKEN }}
