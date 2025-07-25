@@ -1,5 +1,7 @@
 ---
 name: Publish Python packages to PyPI
+permissions:
+  contents: read
 
 on:  # yamllint disable-line rule:truthy
   push:
