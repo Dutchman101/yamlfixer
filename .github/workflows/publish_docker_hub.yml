@@ -11,6 +11,8 @@ jobs:
   build_and_publish_on_docker_hub:
     name: 🐳 Push Docker image to Docker Hub
     if: github.event.pull_request.merged
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
