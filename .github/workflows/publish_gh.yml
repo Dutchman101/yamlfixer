@@ -19,7 +19,7 @@ jobs:
 
       - name: create release
         id: create_release
-        uses: ncipollo/release-action@bcfe5470707e8832e12347755757cec0eb3c22af
+        uses: ncipollo/release-action@b7eabc95ff50cbeeedec83973935c8f306dfcd0b
         with:
           draft: false
           prerelease: false
